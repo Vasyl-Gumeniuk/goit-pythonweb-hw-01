@@ -14,6 +14,7 @@ class Vehicle(ABC):
         self.model = model
         self.spec = spec
 
+
     @abstractmethod
     def start_engine(self) -> None:
         pass
